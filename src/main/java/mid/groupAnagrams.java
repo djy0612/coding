@@ -1,4 +1,4 @@
-package main.java.easy;
+package main.java.mid;
 
 import java.util.*;
 public class groupAnagrams {
@@ -21,7 +21,7 @@ public class groupAnagrams {
             v.add(str);
             map.put(key,v);
         }
-        return new ArrayList<List<String>>(map.values());
+        return new ArrayList<>(map.values());
     }
 
 }
