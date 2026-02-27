@@ -1,6 +1,5 @@
 package main.java.mid;
 
-import com.sun.jndi.cosnaming.CNCtx;
 
 import java.util.ArrayList;
 import java.util.List;
