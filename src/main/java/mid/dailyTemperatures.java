@@ -1,7 +1,5 @@
 package main.java.mid;
 
-import javafx.scene.control.Skin;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 
