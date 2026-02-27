@@ -1,6 +1,5 @@
 package main.java.mid;
 
-import javafx.scene.shape.VLineTo;
 
 import java.util.ArrayList;
 
