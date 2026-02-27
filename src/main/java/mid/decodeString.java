@@ -1,11 +1,26 @@
 package main.java.mid;
 
-import javafx.util.Pair;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class decodeString {
+    class Pair<K, V> {
+        private K key;
+        private V value;
+
+        public Pair(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        public K getKey() {
+            return key;
+        }
+
+        public V getValue() {
+            return value;
+        }
+    }
     public String decodeString(String s){
         Deque<Pair<Integer,StringBuilder>> deque = new ArrayDeque<>();
         StringBuilder curstr = new StringBuilder();
